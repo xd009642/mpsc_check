@@ -3,7 +3,7 @@ use tokio::sync::mpsc;
 
 #[tokio::main]
 async fn main() {
-    let (tx, mut rx) = mpsc::channel(200);
+    let (tx, mut rx) = mpsc::channel(400);
 
 
     let sender = async move {
